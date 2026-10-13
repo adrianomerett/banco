@@ -1,0 +1,167 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banco de Questões - Sistemas de Informação</title>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #f1f5f9;
+            color: #1e293b;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #1e3a8a;
+            color: #ffffff;
+            padding: 30px 20px;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
+        }
+
+        header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #dbeafe;
+            font-size: 15px;
+        }
+
+        main {
+            max-width: 900px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .disciplina {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 25px;
+            margin-bottom: 25px;
+            box-shadow: 0 4px 15px rgba(15, 23, 42, 0.06);
+            border: 1px solid #e2e8f0;
+        }
+
+        .disciplina h2 {
+            font-size: 21px;
+            color: #1e3a8a;
+            margin-bottom: 20px;
+            padding-bottom: 12px;
+            border-bottom: 2px solid #dbeafe;
+        }
+
+        .simulados {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .link-simulado {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 20px;
+            flex: 1 1 220px;
+            padding: 16px 18px;
+            border: 1px solid #cbd5e1;
+            border-radius: 8px;
+            text-decoration: none;
+            color: #334155;
+            background: #f8fafc;
+            transition: 0.2s ease;
+        }
+
+        .link-simulado:hover {
+            background: #eff6ff;
+            border-color: #2563eb;
+            color: #1d4ed8;
+            transform: translateY(-2px);
+        }
+
+        .seta {
+            font-size: 20px;
+            color: #2563eb;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px 15px;
+            color: #64748b;
+            font-size: 13px;
+        }
+
+        @media (max-width: 600px) {
+            header h1 {
+                font-size: 23px;
+            }
+
+            main {
+                margin: 25px auto;
+            }
+
+            .disciplina {
+                padding: 20px;
+            }
+
+            .link-simulado {
+                flex-basis: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>Banco de Questões - Sistemas de Informações</h1>
+        <p>Estude, pratique e teste seus conhecimentos</p>
+    </header>
+
+    <main>
+
+        <section class="disciplina">
+            <h2>Engenharia de Software</h2>
+
+            <div class="simulados">
+                <a href="simulado1.html" class="link-simulado">
+                    <span>Simulado 1</span>
+                    <span class="seta">&rarr;</span>
+                </a>
+
+                <a href="simulado2.html" class="link-simulado">
+                    <span>Simulado 2</span>
+                    <span class="seta">&rarr;</span>
+                </a>
+            </div>
+        </section>
+
+        <section class="disciplina">
+            <h2>Estrutura de Dados em C</h2>
+
+            <div class="simulados">
+                <a href="simulado3.html" class="link-simulado">
+                    <span>Simulado</span>
+                    <span class="seta">&rarr;</span>
+                </a>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        Banco de Questões &copy; 2026 - Sistemas de Informação
+    </footer>
+
+</body>
+</html>
